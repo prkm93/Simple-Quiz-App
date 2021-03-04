@@ -38,11 +38,6 @@ function Quiz() {
 								<div className='question-text'>{questions[index].questionText}</div>
 							</div>
 							<div className='answer-section'>
-								{/* {
-									question.answerOptions.map((answer, key) => {
-										return <button key={index}>{answer.answerText}</button>
-									})
-								} */}
 								{
 									questions[index].answerOptions.map((answer, index) => {
 										return (
